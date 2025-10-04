@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>WEATHERSIDE</title>
+ <style>
+body {
+  background-image: url("backround.png");
+}
+  body {background-color: black;}
+  h1 {color: white;}
+  p {color: white;}
+  background-image:"backround.png";
+
+</style> 
+</head>
+
+<body>
+<img src="hollow.png" style="width:325px;height:200px;">
+
+<img src="BIRTH(unfinished)2025.png" alt="birth" 
+<img src="limgrave.png" alt="limgrave" 
+<img src="615.png" alt="6:15" 
+
+
+____________________________________________
+ <a href="weatherside1.html">
+<img src="WEATHERSIDEgraphic.png" alt="weatherside" style="width:700px;height:200px;">
+</a> 
+
+<img src="lace.png" alt="lace"style="width:1500px;height:100px;">> 
+
+<p style="color:white;"
+<p></p>
