@@ -11,13 +11,21 @@
   margin-right: auto;
 }
 
+
+  /* For width smaller than 400px: */
 body {
-  background-image: url("backround.png");
+  body {background-color: black;};
 }
-  body {background-color: black;}
+
+/* For width 400px and larger: */
+@media only screen and (min-width: 400px) {
+  body {
+    background-image: url('backround.png');
+  }
+} 
   h1 {color: white;}
   p {color: black;}
-  background-image:"backround.png";
+
 
  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -176,6 +184,7 @@ title {
 
 </body>
 </html> 
+
 
 
 
