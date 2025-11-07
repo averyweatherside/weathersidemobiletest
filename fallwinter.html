@@ -6,6 +6,13 @@ body {
   background-image: url("backroundwinter.png");
 }
 
+footer {
+ background-image: url("lace.png");
+  padding: 10px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
 
 .center {
   display: flex;
@@ -14,7 +21,47 @@ body {
   height: 200px;
   border: 0px solid green; 
 }
+* {
+  box-sizing: border-box;
+}
 
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: calc(25% - 20px);
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+  }
+}
 </style>
 
 </head>
@@ -35,18 +82,71 @@ body {
 </div>
 <br>
 
-<div class="center">
+<div class="gallery">
 
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="iphone.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
 
-<img src="iphone.jpg" alt="" style="width:500px;height:auto;">
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="stood.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
 
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="portrait.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="teeth.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
 
 </div>
+
+<div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="ccf.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="horriblemonument.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="fall.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="abook.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+</div>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1123490171?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="country road visualizer the hellp"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<footer>
+
+ <a href="/contact">">contact: averyweatherside@gmail.com</a> 
+</footer>
 
 
 </body>
 </html>
-
-
 
 
